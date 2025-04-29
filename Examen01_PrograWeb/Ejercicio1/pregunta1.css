@@ -1,0 +1,44 @@
+.tittle {
+    font-weight: bold;
+}
+
+.Contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 350px;
+}
+
+.contenedor3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pie_pagina {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 20px;
+}
+
+.Jugar {
+    margin: 10px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+td {
+    width: 25%; /* El ancho de cada celda */
+  }
